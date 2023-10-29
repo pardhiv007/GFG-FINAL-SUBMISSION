@@ -1,0 +1,55 @@
+/* Reset some default styles for consistency */
+body, h1, h2, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #edbd8a;
+    color: #111;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about ,.ingredients, .instructions {
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #edbd8a;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+
+}
+
+.about h2 ,.ingredients h2, .instructions h2 {
+    font-size: 18px;
+    color: #f75A3D;
+}
+
+/* Style the list items */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+

@@ -1,0 +1,49 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #111;
+}
+h2 {
+    color: #F75A3D;
+    font-size: xx-large;
+}
+
+/* Style the header */
+header {
+    background-color: #EDBD8A;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about-content, .mission {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #EDBD8A;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.about-content h2, .mission h2 {
+    font-size: 18px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
